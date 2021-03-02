@@ -1,12 +1,30 @@
 @charset "UTF-8"
 
 body {
-    background-color: white;
-    color: rgba(0,0,0,1)
+    color:  rgba(0,0,0,1);
 }
+
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0,.5);
+    padding: 10px;
+}
+
 p {
     text-align: justify;
     text-indent: 50px;
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    left: 780px;
+    top: 40px;
+}
+
+header#cabecalho {
+    
 }
 
 /* Formatação de imagens com legendas */
@@ -58,8 +76,23 @@ nav#menu li {
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: #606060;
 }
 
 nav#menu h1 {
     display: none;
+}
+
+nav#menu a{
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
