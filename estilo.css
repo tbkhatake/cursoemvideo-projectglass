@@ -32,9 +32,10 @@ a:hover {
 }
 
 header#cabecalho img#icone{
-    position: absolute;
+    display: block;
+    position: relative;
     left: 740px;
-    top: 70px;
+    top: -30;
 }
 
 header#cabecalho {
